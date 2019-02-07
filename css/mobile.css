@@ -1,0 +1,644 @@
+    /* Custom, iPhone Retina */
+
+    @media only screen and (min-width: 320px) {
+        .text-mobile-xs {
+            text-align: center;
+        }
+
+        .hero {
+            background-size: cover;
+            background-position: center;
+            min-height: 200px;
+        }
+
+        h1 {
+            font-size: 25px;
+            color: #fff;
+
+        }
+
+        .bg-img {
+            height: 200px;
+            background-color: #f1f1f1;
+            text-align: center;
+            font-size: 3.0em;
+            text-transform: uppercase;
+            color: #fff;
+            background-size: cover;
+            background-position: top center;
+            background-repeat: no-repeat;
+        }
+
+
+        .fullimagebg {
+            background-size: cover;
+            background-position: center center;
+            height: 250px;
+            margin-top: 35px;
+            background-repeat: no-repeat;
+        }
+
+        .card-img-top {
+            height: auto;
+        }
+
+        .bright {
+
+            border-right: 00px solid #ececec;
+            border-bottom: 1px solid #ececec;
+            padding-bottom: 25px;
+            padding-top: 25px;
+
+        }
+
+        .bright:last-child {
+            border-bottom: 00px solid #ececec;
+            padding-bottom: 00px;
+
+        }
+
+        .bright:first-child {
+            padding-top: 00px;
+
+        }
+
+        .homegrey ul {
+            -moz-column-count: 1;
+            -webkit-column-count: 1;
+            column-count: 1 !important;
+            width: 100%;
+            margin-left: -20px;
+        }
+
+        .footercta {
+            font-family: miller-display, serif;
+            font-weight: 400;
+            font-style: normal;
+            text-align: center;
+            font-size: 36px;
+            line-height: 1.5 !important;
+            letter-spacing: -1px;
+        }
+
+        .loud {
+            color: #0A192B;
+            margin-top: 50px;
+            margin-bottom: 35px;
+            font-size: 36px;
+            letter-spacing: -1px;
+            display: inline-block;
+            padding-bottom: 5px;
+            position: relative;
+            font-family: miller-display, serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .intro,
+        .subloud {
+            font-size: 27px;
+        }
+
+        .sheadings {
+            font-size: 27px;
+            width: 100%;
+        }
+
+        .card {
+            border: 00px solid #ffffff;
+
+        }
+
+        .headings {
+
+            font-size: 45px;
+        }
+
+        .homegrey li {
+            border-bottom: 1px solid #ffffff;
+            list-style: none;
+            word-break: break-word;
+        }
+
+        .homegrey li:nth-child(9n+0) {
+            border-bottom: 01px solid #ffffff;
+            list-style: none;
+        }
+    }
+
+
+    /* Extra Small Devices, Phones */
+
+    @media only screen and (min-width: 480px) {
+        .text-mobile-xs {
+            text-align: center;
+
+        }
+
+        .hero {
+            background-size: cover;
+            background-position: center;
+            min-height: 250px;
+        }
+
+        h1 {
+            font-size: 35px;
+        }
+
+        .bg-img {
+            height: 200px;
+            background-color: #f1f1f1;
+            text-align: center;
+            font-size: 3.0em;
+            text-transform: uppercase;
+            color: #fff;
+            background-size: cover;
+            background-position: top center;
+            background-repeat: no-repeat;
+        }
+
+
+        .fullimagebg {
+            background-size: cover;
+            background-position: center center;
+            height: 300px;
+            margin-top: 35px;
+            background-repeat: no-repeat;
+        }
+
+        .card-img-top {
+            height: auto;
+        }
+
+        .bright {
+
+            border-right: 00px solid #ececec;
+            border-bottom: 1px solid #ececec;
+            padding-bottom: 25px;
+            padding-top: 25px;
+
+        }
+
+        .bright:last-child {
+            border-bottom: 01px solid #ececec;
+            padding-bottom: 00px;
+
+        }
+
+        .bright:first-child {
+            padding-top: 00px;
+
+        }
+
+        .homegrey ul {
+            -moz-column-count: 1;
+            -webkit-column-count: 1;
+            column-count: 1 !important;
+            width: 100%;
+            margin-left: -20px;
+        }
+
+        .footercta {
+            font-family: miller-display, serif;
+            font-weight: 400;
+            font-style: normal;
+            text-align: center;
+            font-size: 36px;
+            line-height: 1.5 !important;
+            letter-spacing: -1px;
+        }
+
+        .loud {
+            color: #0A192B;
+            margin-top: 50px;
+            margin-bottom: 35px;
+            font-size: 45px;
+            letter-spacing: -1px;
+            display: inline-block;
+            padding-bottom: 5px;
+            position: relative;
+            font-family: miller-display, serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .intro,
+        .subloud {
+            font-size: 27px;
+        }
+
+        .sheadings {
+            font-size: 27px;
+            width: 100%;
+        }
+
+        .card {
+            border: 20px solid #ffffff;
+
+        }
+
+        .headings {
+
+            font-size: 45px;
+        }
+
+        .homegrey li {
+            border-bottom: 1px solid #ffffff;
+            list-style: none;
+            word-break: break-word;
+        }
+
+        .homegrey li:nth-child(9n+0) {
+            border-bottom: 01px solid #ffffff;
+            list-style: none;
+        }
+    }
+
+
+    /* Small devices (tablets, 768px and up) */
+
+    @media (min-width: 768px) {
+        .text-mobile-sm {
+            text-align: left;
+        }
+
+        .right-mobile-sm {
+            text-align: right;
+        }
+
+        .hero {
+            background-size: cover;
+            background-position: center;
+            min-height: 350px;
+        }
+
+        h1 {
+            font-size: 40px;
+        }
+
+        .bg-img {
+            height: 200px;
+            background-color: #f1f1f1;
+            text-align: center;
+            font-size: 3.0em;
+            text-transform: uppercase;
+            color: #fff;
+            background-size: cover;
+            background-position: top center;
+            background-repeat: no-repeat;
+        }
+
+        .fullimagebg {
+            background-size: cover;
+            background-position: center center;
+            height: 400px;
+            margin-top: 35px;
+            background-repeat: no-repeat;
+        }
+
+        .navbar-expand-md .navbar-nav .nav-link {
+            color: #222;
+            font-family: sofia-pro, sans-serif;
+            font-weight: 500;
+            font-style: normal;
+        }
+
+        .card-img-top {
+            height: auto;
+        }
+
+        .bright {
+
+            border-right: 00px solid #ececec;
+            border-bottom: 1px solid #ececec;
+            padding-bottom: 25px;
+            padding-top: 25px;
+
+        }
+
+        .bright:last-child {
+            border-bottom: 1px solid #ececec;
+
+        }
+
+        .homegrey ul {
+            -moz-column-count: 1;
+            -webkit-column-count: 1;
+            column-count: 1 !important;
+            width: 100%;
+            margin-left: -20px;
+        }
+
+        .footercta {
+            font-family: miller-display, serif;
+            font-weight: 400;
+            font-style: normal;
+            text-align: center;
+            font-size: 45px;
+            line-height: 1.5 !important;
+            letter-spacing: -1px;
+        }
+
+        .loud {
+            color: #0A192B;
+            margin-top: 50px;
+            margin-bottom: 35px;
+            font-size: 54px;
+            letter-spacing: -1px;
+            display: inline-block;
+            padding-bottom: 5px;
+            position: relative;
+            font-family: miller-display, serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .intro,
+        .subloud {
+            font-size: 27px;
+        }
+
+        .sheadings {
+            font-size: 27px;
+            width: 81%;
+        }
+
+        .card {
+            border: 22px solid #ffffff;
+
+        }
+
+        .headings {
+
+            font-size: 54px;
+        }
+
+        .homegrey li {
+            border-bottom: 1px solid #ffffff;
+            list-style: none;
+            word-break: break-word;
+        }
+
+        .homegrey li:nth-child(9n+0) {
+            border-bottom: 01px solid #ffffff;
+            list-style: none;
+        }
+    }
+
+    /* Medium devices (desktops, 992px and up) */
+
+    @media (min-width: 992px) {
+        .text-mobile-md {
+            text-align: left;
+        }
+
+        .right-mobile-md {
+            text-align: right;
+        }
+
+
+        .hero {
+            background-size: cover;
+            background-position: center;
+            min-height: 400px;
+        }
+
+        h1 {
+            font-size: 45px;
+        }
+
+        .bg-img {
+            height: 200px;
+            background-color: #f1f1f1;
+            text-align: center;
+            font-size: 3.0em;
+            text-transform: uppercase;
+            color: #fff;
+            background-size: cover;
+            background-position: top center;
+            background-repeat: no-repeat;
+        }
+
+
+        .fullimagebg {
+            background-size: cover;
+            background-position: center center;
+            height: 400px;
+            margin-top: 35px;
+            background-repeat: no-repeat;
+        }
+
+        .card-img-top {
+            height: 150px;
+        }
+
+        .bright {
+
+            border-right: 1px solid #ececec;
+            border-bottom: 0px solid #ececec;
+            padding-bottom: 00px;
+            padding-top: 00px;
+
+        }
+
+        .bright:last-child {
+
+            border-bottom: 00px;
+            border-right: 00px solid #ececec;
+
+        }
+
+        .homegrey ul {
+            -moz-column-count: 2;
+            -webkit-column-count: 2;
+            column-count: 2 !important;
+            width: 100%;
+            margin-left: 00px;
+        }
+
+        .footercta {
+            font-family: miller-display, serif;
+            font-weight: 400;
+            font-style: normal;
+            text-align: center;
+            font-size: 54px;
+            line-height: 1.5 !important;
+            letter-spacing: -1px;
+        }
+
+        .loud {
+            color: #0A192B;
+            margin-top: 50px;
+            margin-bottom: 35px;
+            font-size: 63px;
+            letter-spacing: -1px;
+            display: inline-block;
+            padding-bottom: 5px;
+            position: relative;
+            font-family: miller-display, serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .intro,
+        .subloud {
+            font-size: 36px;
+        }
+
+        .sheadings {
+            font-size: 36px;
+            width: 72%;
+        }
+
+        .card {
+            border: 22px solid #ffffff;
+
+        }
+
+        .headings {
+
+            font-size: 63px;
+        }
+
+        .homegrey li {
+            border-bottom: 1px solid #ffffff;
+            list-style: none;
+            word-break: break-word;
+        }
+
+        .homegrey li:nth-child(9n+0) {
+            border-bottom: 00px solid #ffffff;
+            list-style: none;
+        }
+    }
+
+    /* Large devices (large desktops, 1200px and up) */
+
+    @media (min-width: 1200px) {
+        .text-mobile-lg {
+            text-align: left;
+        }
+
+        .right-mobile-lg {
+            text-align: right;
+        }
+
+        .hero {
+            background-size: cover;
+            background-position: center bottom;
+            min-height: 450px;
+            background-size: cover;
+            background-position: top center;
+            min-height: 450px;
+            position: relative;
+        }
+
+        h1 {
+            font-size: 50px;
+        }
+
+        .bg-img {
+            height: 350px;
+            background-color: #f1f1f1;
+            text-align: center;
+            font-size: 3.0em;
+            text-transform: uppercase;
+            color: #fff;
+            background-size: cover;
+            background-position: top left;
+            background-repeat: no-repeat;
+        }
+
+
+        .fullimagebg {
+            background-size: cover;
+            background-position: left center;
+            height: 300px;
+            margin-top: 35px;
+            background-repeat: no-repeat;
+        }
+
+        .card-img-top {
+            height: 180px;
+        }
+
+        .bright {
+
+            border-right: 01px solid #ececec;
+            border-bottom: 00px solid #ececec;
+            padding-bottom: 00px;
+            padding-top: 00px;
+
+        }
+
+        .bright:last-child {
+
+            border-bottom: 00px;
+            border-right: 00px solid #ececec;
+
+        }
+
+        .homegrey ul {
+            -moz-column-count: 2;
+            -webkit-column-count: 2;
+            column-count: 2 !important;
+            width: 100%;
+            margin-left: 00px;
+        }
+
+        .footercta {
+            font-family: miller-display, serif;
+            font-weight: 400;
+            font-style: normal;
+            text-align: center;
+            font-size: 63px;
+            line-height: 1.5 !important;
+            letter-spacing: -1px;
+        }
+
+        .loud {
+            color: #0A192B;
+            margin-top: 50px;
+            margin-bottom: 35px;
+            font-size: 72px;
+            letter-spacing: -1px;
+            display: inline-block;
+            padding-bottom: 5px;
+            position: relative;
+            font-family: miller-display, serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .intro,
+        .subloud {
+            font-size: 36px;
+        }
+
+        .sheadings {
+            font-size: 36px;
+            width: 72%;
+        }
+
+        .card {
+            border: 22px solid #ffffff;
+
+        }
+
+        .headings {
+
+            font-size: 63px;
+        }
+
+        .homegrey li {
+            border-bottom: 1px solid #ffffff;
+            list-style: none;
+            word-break: break-word;
+        }
+
+        .homegrey li:nth-child(9n+0) {
+            border-bottom: 00px solid #ffffff;
+            list-style: none;
+        }
+
+    }
